@@ -1,27 +1,47 @@
 body {
-font-family: Arial, Helvetica, sans-serif;    
-margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+header {
+    display: block;
 }
 
 .navbar {
     width: 100%;
+    position: relative;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
 }
 
 .logo {
     display: inline-block;
     vertical-align: top;
+    justify-content: flex-start;
     width: 70px;
     height: 40px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flags {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
 }
 
 .column {
