@@ -1,2 +1,2 @@
-# Hackathon1
+# Artathon Liberty
 Our first Hackathon at Developers Institute
