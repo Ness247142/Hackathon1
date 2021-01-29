@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home_presentation {
+    margin: 0;
+    background-color:black;
+    color:white;
+    padding: 50px;
+    overflow: visible;
+ 
+}
+
+#home_presentation h2{
+    border-left: 5px darkgray solid; 
+    padding-left: 25px;
+    margin-left: 20%;
+    
+    
+}
+.index_pics {
+    width: 40%;
+    margin:auto;
+}
+
+#pitch {
+    background-color: grey;
+    color:white;
+    text-align: center;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-duration: 6s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+header {
+    display: block;
+}
+.navbar {
+    width: 100%;
+    position: relative;
+}
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    justify-content: flex-start;
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.carousel-inner {
+    height: 450px;
+}
+.item {
+    height:100%;
+}
+.index_pics {
+    height: 100%;
+}
+#home_quote {
+    font-style: italic;
+}
+.carousel-indicators li{
+    background-color: grey;
+}
+.carousel-indicators .active{
+    background-color: black;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) { 
+    #home_presentation {
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #home_presentation {
+        padding: 0;     
+    }
+ }
+
